@@ -16,7 +16,7 @@ const MainContent = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/items');
+        const response = await axios.get('https://kumarnbavan-billing-software-api.vercel.app/items');
         setProducts(response.data);
         setLoading(false);
       } catch (error) {
@@ -110,7 +110,7 @@ const MainContent = () => {
     };
   
     try {
-      await axios.post('http://localhost:5000/bills', billData);
+      await axios.post('https://kumarnbavan-billing-software-api.vercel.app/bills', billData);
       handlePrint(billData);
   
       // Clear selected products after successful print and store
