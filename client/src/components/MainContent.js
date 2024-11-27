@@ -92,7 +92,7 @@ const MainContent = () => {
     const customerName = 'Default Customer';
     const contactNumber = '1234567890';
     const createdAt = new Date();
-    const createdAtAbuDhabi = new Date(createdAt.toLocaleString('en-US', { timeZone: 'Asia/Dubai' }));
+    const createdAtAbuDhabi = new Date(createdAt.toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
   
     const billData = {
       customerName,
