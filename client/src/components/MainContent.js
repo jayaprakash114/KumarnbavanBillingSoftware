@@ -207,7 +207,6 @@ const MainContent = () => {
       </table>
     </div>
 <div>
-<h3> இங்கு பிரெஷ் ஜூஸ் கிடைக்கும் </h3>
 </div>
     <div class="footer">
       <p>Billing Partner CORPWINGS IT SERVICE 6380341944</p>
